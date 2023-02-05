@@ -1,0 +1,16 @@
+<h1>{{ title | uppercase }}</h1>
+<!-- <input type="text" [value]="title">       same like 1 line -->
+<br/>
+<app-profile-editor></app-profile-editor>
+<br/>
+<app-name-editor></app-name-editor>
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Herors</a>
+
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
+<!-- <p><button (click)="onSave()">Save me !</button></p>
+<p><button (click)="onToggle()">Toggle !</button></p> -->
